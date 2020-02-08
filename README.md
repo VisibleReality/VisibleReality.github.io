@@ -1,3 +1,5 @@
+Forked from [KirkMcDonald/kirkmcdonald.github.io](https://github.com/KirkMcDonald/kirkmcdonald.github.io)
+
 # Factorio Calculator
 
 This is the repostory for the [Factorio Calculator](https://kirkmcdonald.github.io/calc.html), a tool for calculating resource requirements and production ratios in the game [Factorio](https://factorio.com/).
