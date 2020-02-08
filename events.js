@@ -212,6 +212,7 @@ function changeDefaultFactory(category) {
         recipeTable.updateDisplayedFactory()
         itemUpdate()
     }
+}
 
 function changeBPrec(event) {
     beltPrecision = Number(event.target.value)
