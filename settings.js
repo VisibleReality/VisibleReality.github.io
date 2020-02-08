@@ -617,3 +617,8 @@ function renderSettings(settings) {
     renderLinkLength(settings)
     renderValueFormat(settings)
 }
+
+var LOCALSTORAGE_SAVED_SETTINGS = [
+    "data", "rate", "rp", "cp", "min",
+    "furnace", "belt", "pipe", "mprod", "vf"
+]
