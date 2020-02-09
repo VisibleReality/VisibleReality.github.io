@@ -168,10 +168,10 @@ function renderRateOptions(settings) {
 }
 
 // precisions
-var DEFAULT_RATE_PRECISION = 3
+var DEFAULT_RATE_PRECISION = 2
 var ratePrecision = DEFAULT_RATE_PRECISION
 
-var DEFAULT_COUNT_PRECISION = 1
+var DEFAULT_COUNT_PRECISION = 0 // Factory
 var countPrecision = DEFAULT_COUNT_PRECISION
 
 var DEFAULT_BELT_PRECISION = 1
@@ -196,7 +196,7 @@ function renderPrecisions(settings) {
 }
 
 // minimum assembler
-var DEFAULT_MINIMUM = "1"
+var DEFAULT_MINIMUM = "2"
 
 var minimumAssembler = DEFAULT_MINIMUM
 
@@ -263,7 +263,7 @@ function renderFurnace(settings) {
 }
 
 // fuel
-var DEFAULT_FUEL = "coal"
+var DEFAULT_FUEL = "solid-fuel"
 
 var preferredFuel
 
@@ -378,7 +378,7 @@ function setKovarex(enabled) {
 }
 
 // belt
-var DEFAULT_BELT = "transport-belt"
+var DEFAULT_BELT = "express-transport-belt"
 
 var preferredBelt = DEFAULT_BELT
 var preferredBeltSpeed = null
